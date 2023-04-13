@@ -1,0 +1,149 @@
+#topo-pagina {
+    background-color: black;
+    border: solid;
+}
+
+body {
+    background-color: darkgreen;
+}
+
+#perfil {
+    border-radius: 150%;
+    position: absolute;
+    top: 18px;
+    right: 100px;
+    border: solid aqua 5px;
+}
+
+#perfil:hover {
+    border: 6px solid greenyellow;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    padding: 15px;    
+    font-size: 50px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    padding: 15px; 
+    color: aqua;
+       
+}
+
+#sobre-mim {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 50px 20px auto 500px;
+    padding: 10px 40px;
+    border: 3px solid aqua;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    
+}
+
+#sobre-mim:hover {
+    font-size: 20px;
+    background-color: blueviolet;
+    border: 6px solid greenyellow;
+    height: 350px;
+    width: 350px;
+}
+
+#projetos {    
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 50px 20px;
+    padding: 10px 40px;
+    border: 3px solid aqua;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    position: absolute;
+    top: 240px;
+    right: 500px; 
+}
+
+#projetos:hover {
+    font-size: 20px; 
+    background-color: blueviolet;
+    border: 6px solid greenyellow;
+    height: 350px;
+    width: 350px;
+    
+}
+
+#formacao {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 50px 20px auto 500px;
+    padding: 10px 40px;
+    border: 3px solid aqua;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+}
+
+#formacao:hover {
+    font-size: 20px;
+    background-color: blueviolet;
+    border: 6px solid greenyellow;
+    height: 350px;
+    width: 350px;
+}
+
+#skills {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 50px 20px;
+    padding: 10px 40px;
+    border: 3px solid aqua;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    position: absolute;
+    top: 610px;
+    right: 500px; 
+}
+
+#skills:hover {
+    font-size: 20px;
+    background-color: blueviolet;
+    border: 6px solid greenyellow;
+    height: 350px;
+    width: 350px;
+}
+
+footer {
+    text-align: center;
+    /*border-top: 1px solid #f0f5ff;*/
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    text-transform: lowercase;
+}
+
+
+#icone-gmail:hover {
+    transform: scale(1.2);
+}
+
+#icone-likedin:hover {
+    transform: scale(1.2);
+}
+
+#icone-github:hover {
+    transform: scale(1.2);
+}
+
