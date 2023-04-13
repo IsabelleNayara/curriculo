@@ -1,16 +1,18 @@
 #topo-pagina {
     background-color: black;
     border: solid;
+    border-radius: 10px;
+    margin: 25px;
 }
 
 body {
-    background-color: darkgreen;
+    background-image: url(midia/foto/plano-de-fundo.jpg);
 }
 
 #perfil {
     border-radius: 150%;
     position: absolute;
-    top: 18px;
+    top: 38px;
     right: 100px;
     border: solid aqua 5px;
 }
@@ -48,11 +50,11 @@ h3 {
 }
 
 #sobre-mim:hover {
-    font-size: 20px;
+    /*font-size: 20px;*/
     background-color: blueviolet;
     border: 6px solid greenyellow;
-    height: 350px;
-    width: 350px;
+    /*height: 350px;
+    width: 350px;*/
 }
 
 #projetos {    
@@ -72,11 +74,11 @@ h3 {
 }
 
 #projetos:hover {
-    font-size: 20px; 
+    /*font-size: 20px;*/ 
     background-color: blueviolet;
     border: 6px solid greenyellow;
-    height: 350px;
-    width: 350px;
+    /*height: 350px;
+    width: 350px;*/
     
 }
 
@@ -91,14 +93,16 @@ h3 {
     font-size: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 30px;
+    top: 610px;
+    
 }
 
 #formacao:hover {
-    font-size: 20px;
+    /*font-size: 20px;*/
     background-color: blueviolet;
     border: 6px solid greenyellow;
-    height: 350px;
-    width: 350px;
+    /*height: 350px;
+    width: 350px;*/
 }
 
 #skills {
@@ -118,20 +122,22 @@ h3 {
 }
 
 #skills:hover {
-    font-size: 20px;
+    /*font-size: 20px;*/
     background-color: blueviolet;
     border: 6px solid greenyellow;
-    height: 350px;
-    width: 350px;
+    /*height: 350px;
+    width: 350px;*/
 }
 
 footer {
     text-align: center;
     /*border-top: 1px solid #f0f5ff;*/
     padding: 20px;
-    width: 75%;
-    margin: auto;
+    /*width: 75%;*/
+    margin: 25px;
     text-transform: lowercase;
+    background-color: black;
+    border-radius: 10px;
 }
 
 
