@@ -1,47 +1,48 @@
-#topo-pagina {
-    background-color: black;
-    border: solid;
-    border-radius: 10px;
-    margin: 25px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica';
 }
 
-body {
-    background-image: url(midia/foto/plano-de-fundo.jpg);
+header{
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #0f642f;
 }
 
 #perfil {
     border-radius: 150%;
-    position: absolute;
-    top: 38px;
-    right: 100px;
-    border: solid aqua 5px;
+    border: solid rgb(12, 235, 223) 5px;
 }
 
 #perfil:hover {
-    border: 6px solid greenyellow;
+    border: 6px solid rgb(140, 67, 212);
 }
 
-h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
-    padding: 15px;    
-    font-size: 50px;
-    color: white;
+.container{
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
 }
 
-h3 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
-    padding: 15px; 
-    color: aqua;
-       
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-#sobre-mim {
-    height: 300px;
-    width: 300px;
+.card {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 7px 0px 0px rgb(12, 235, 223);
+    padding: 25px;
     background-color: black;
-    margin: 50px 20px auto 500px;
-    padding: 10px 40px;
-    border: 3px solid aqua;
     color: #fff;
     font-size: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -49,97 +50,30 @@ h3 {
     
 }
 
-#sobre-mim:hover {
-    /*font-size: 20px;*/
-    background-color: blueviolet;
-    border: 6px solid greenyellow;
-    /*height: 350px;
-    width: 350px;*/
+.card:hover {
+    box-shadow: 7px 0px 0px rgb(140, 67, 212); 
+    background-color: rgb(230, 8, 186);
 }
 
-#projetos {    
-    height: 300px;
-    width: 300px;
-    background-color: black;
-    margin: 50px 20px;
-    padding: 10px 40px;
-    border: 3px solid aqua;
+h2{
+    margin-bottom: 10px;
+    color: #8d13a3;
+    font-size: 24px;
+    padding-left: 7px;
+}
+
+
+.card p{
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #3db36b;
     color: #fff;
-    font-size: 17px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 30px;
-    position: absolute;
-    top: 240px;
-    right: 500px; 
-}
-
-#projetos:hover {
-    /*font-size: 20px;*/ 
-    background-color: blueviolet;
-    border: 6px solid greenyellow;
-    /*height: 350px;
-    width: 350px;*/
-    
-}
-
-#formacao {
-    height: 300px;
-    width: 300px;
-    background-color: black;
-    margin: 50px 20px auto 500px;
-    padding: 10px 40px;
-    border: 3px solid aqua;
-    color: #fff;
-    font-size: 17px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 30px;
-    top: 610px;
-    
-}
-
-#formacao:hover {
-    /*font-size: 20px;*/
-    background-color: blueviolet;
-    border: 6px solid greenyellow;
-    /*height: 350px;
-    width: 350px;*/
-}
-
-#skills {
-    height: 300px;
-    width: 300px;
-    background-color: black;
-    margin: 50px 20px;
-    padding: 10px 40px;
-    border: 3px solid aqua;
-    color: #fff;
-    font-size: 17px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 30px;
-    position: absolute;
-    top: 610px;
-    right: 500px; 
-}
-
-#skills:hover {
-    /*font-size: 20px;*/
-    background-color: blueviolet;
-    border: 6px solid greenyellow;
-    /*height: 350px;
-    width: 350px;*/
-}
-
-footer {
+    border-top: 3px solid #0f642f;
     text-align: center;
-    /*border-top: 1px solid #f0f5ff;*/
-    padding: 20px;
-    /*width: 75%;*/
-    margin: 25px;
-    text-transform: lowercase;
-    background-color: black;
-    border-radius: 10px;
+    padding: 80px;
 }
-
 
 #icone-gmail:hover {
     transform: scale(1.2);
@@ -152,4 +86,21 @@ footer {
 #icone-github:hover {
     transform: scale(1.2);
 }
+
+
+/*------------------------------------*/
+
+@media (max-width: 450px) {
+    header{
+        background-color: #18c8dc;
+        border-bottom: 3px solid blue;
+    }  
+
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
 
