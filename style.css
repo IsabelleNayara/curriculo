@@ -88,14 +88,25 @@ footer{
 }
 
 
-/*------------------------------------*/
-
+/*--Responsivo para celulares--*/
 @media (max-width: 450px) {
-    header{
-        background-color: #18c8dc;
-        border-bottom: 3px solid blue;
-    }  
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+}
 
+/*--Responsivo para iphone SE--*/
+
+@media (width: 375px) {
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*--Responsivo para tabletes--*/
+@media (orientation: landscape) {
     .card {
         width: 100%;
         height: 100%;
