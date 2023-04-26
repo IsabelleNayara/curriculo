@@ -95,7 +95,7 @@ footer{
     padding: 80px;
 }
 
-#theme-toggle { /*tornar botão transparente*/
+#theme-toggle { /*tornar botão com fundo transparente*/
     background-color: transparent;
     color: #fff;
     padding: 10px 20px;
