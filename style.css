@@ -95,6 +95,16 @@ footer{
     padding: 80px;
 }
 
+#theme-toggle { /*tornar botão transparente*/
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
 #icone-gmail:hover {
     transform: scale(1.2);
 }
@@ -151,7 +161,7 @@ body.dark-mode * {
         box-shadow: 7px 0px 0px #ff00ff; 
         background-color: #000000; 
         border: 2px solid #ff00ff;       
-    }   
+    }  
     
   }
 /*Modo escuro*/
