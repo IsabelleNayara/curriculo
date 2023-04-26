@@ -4,7 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Helvetica';    
+    font-family: 'Helvetica';
+    transition: background-color 0.5s, color 0.5s;    
 }
 
 header{
@@ -13,11 +14,13 @@ header{
     padding: 15px;
     text-align: center;
     border-bottom: 3px solid rgb(12, 235, 223);
+    
 }
 
 #perfil {
     border-radius: 150%;
     border: solid rgb(12, 235, 223) 5px;
+    
 }
 
 #perfil:hover {
@@ -27,7 +30,8 @@ header{
 .container{
     background-color: #e9d7eb;
     min-height: 60vh;
-    padding: 50px;
+    padding: 50px;      
+    
 }
 
 .products-container{
@@ -48,8 +52,7 @@ header{
     color: #fff;
     font-size: 19px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 30px;
-    
+    border-radius: 30px;   
     
 }
 
@@ -129,3 +132,29 @@ footer{
         height: 100%;
     }
 }
+
+
+
+/*Modo escuro*/
+
+/* Estilos para o modo escuro */
+body.dark-mode * {
+    background-color: #000000;
+    color: #ffffff;
+    transition: background-color 0.5s, color 0.5s;    
+
+    .card {
+        border: 2px solid rgb(12, 235, 223);
+    }
+
+    .card:hover {
+        box-shadow: 7px 0px 0px #ff00ff; 
+        background-color: #000000; 
+        border: 2px solid #ff00ff;       
+    }   
+    
+  }
+/*Modo escuro*/
+
+
+
