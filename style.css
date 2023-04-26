@@ -21,7 +21,7 @@ header{
 }
 
 #perfil:hover {
-    border: 6px solid rgb(140, 67, 212);
+    border: solid #ff00ff 5px;
 }
 
 .container{
@@ -70,6 +70,13 @@ a {
     
 }
 
+.recuo {
+    text-indent: 2em;
+}
+
+li {
+    list-style-type: none;
+  }
 
 .card p{
     margin-bottom: 10px;
