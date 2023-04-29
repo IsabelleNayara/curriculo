@@ -148,10 +148,12 @@ footer{
 /*Modo escuro*/
 
 /* Estilos para o modo escuro */
-body.dark-mode * {
+body.dark-mode * { 
+    {
     background-color: #000000;
     color: #ffffff;
-    transition: background-color 0.5s, color 0.5s;    
+    transition: background-color 0.5s, color 0.5s; 
+    }
 
     .card {
         border: 2px solid rgb(12, 235, 223);
@@ -161,9 +163,9 @@ body.dark-mode * {
         box-shadow: 7px 0px 0px #ff00ff; 
         background-color: #000000; 
         border: 2px solid #ff00ff;       
-    }  
-    
+    }
   }
+
 /*Modo escuro*/
 
 
