@@ -92,7 +92,12 @@ footer{
     color: #fff;
     border-top: 3px solid rgb(12, 235, 223);
     text-align: center;
-    padding: 80px;
+    padding: 20px;
+    
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #theme-toggle { /*tornar botão com fundo transparente*/
@@ -148,8 +153,7 @@ footer{
 /*Modo escuro*/
 
 /* Estilos para o modo escuro */
-body.dark-mode * { 
-    {
+body.dark-mode * {     
     background-color: #000000;
     color: #ffffff;
     transition: background-color 0.5s, color 0.5s; 
@@ -164,7 +168,7 @@ body.dark-mode * {
         background-color: #000000; 
         border: 2px solid #ff00ff;       
     }
-  }
+  
 
 /*Modo escuro*/
 
