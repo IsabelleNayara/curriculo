@@ -1,3 +1,3 @@
-# curriculo
+# Desafio do Bootcamp mais1code
 
-https://isabellenayara.github.io/curriculo/
+Para acessar clique no link: https://isabellenayara.github.io/curriculo/
