@@ -3,4 +3,4 @@
 
 Para acessar o currículo clique no link: https://isabellenayara.github.io/curriculo/
 
-![projeto]()
+![projeto](https://github.com/IsabelleNayara/curriculo/blob/main/projeto.gif)
