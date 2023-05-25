@@ -1,7 +1,5 @@
 # Desafio do Bootcamp mais1code 
 
-[harry](https://media.giphy.com/media/qLHzYjlA2FW8g/giphy.gif)
-
 ## Proposta de cúrriculo utilizando HTML e CSS.
 
 Para acessar o currículo clique no link: https://isabellenayara.github.io/curriculo/
