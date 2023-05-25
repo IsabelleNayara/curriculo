@@ -7,11 +7,13 @@ Para acessar o currículo clique no link: https://isabellenayara.github.io/curri
   
 A tradução com o VLibras Widget é feita pela seleção do texto que se deseja traduzir da página. Para isso, o usuário deve iniciar a ferramenta clicando no ícone flutuante presente no lado direto do website.
   
-Com o widget aberto, ao passar o ponteiro do mouse por um elemento de texto, este é realçado indicando que pode ser traduzido. Clicando com o botão esquedo do mouse, a ferramenta iniciará a tradução. E no celular basta clicar em cima do texto e o que for selecionado vai zer traduzido para libras.
+Com o widget aberto, ao passar o ponteiro do mouse por um elemento de texto, este é realçado indicando que pode ser traduzido. Clicando com o botão esquedo do mouse, a ferramenta iniciará a tradução. E no celular basta clicar em cima do texto e o que for selecionado vai ser traduzido para libras.
   
-Para saber mais detalhes do funcionamento da ferramenta do VLibras, leia a [funcionalidade](https://vlibras.gov.br/doc/widget/functionalities/texttranslation.html)
+Para saber mais detalhes do funcionamento da ferramenta da VLibras, leia as [funcionalidades](https://vlibras.gov.br/doc/widget/functionalities/texttranslation.html).
   
-### A seguir segue vídeo demontrando como o site funciona.
+No projeto também foi adicionado o modo dark.
+  
+### A seguir segue vídeo demonstrando como o site funciona.
 
 ![projeto](https://github.com/IsabelleNayara/curriculo/blob/main/projeto.gif)
   
